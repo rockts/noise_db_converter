@@ -24,7 +24,9 @@
             "version": "1.0.0",
             "main": "main.ts",
             "board": [
-                "Uno"
+                "Uno",
+                "Mega2560",
+                "Leonardo"
             ],
             "files": [
                 "libraries/libraries.zip"
