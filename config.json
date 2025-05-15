@@ -24,7 +24,7 @@
             "version": "1.0.0",
             "main": "main.ts",
             "board": [
-                "arduinoUno"
+                "Uno"
             ],
             "files": [
                 "libraries/libraries.zip"
@@ -32,11 +32,7 @@
         },
         "python": {
             "dir": "python/",
-            "version": "1.0.0",
             "main": "main.ts",
-            "board": [
-                "unihiker"
-            ],
             "files": [
                 "libraries/libraries.zip"
             ]

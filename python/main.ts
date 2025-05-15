@@ -13,7 +13,8 @@ namespace noiseDbConverter {
 
     /**
      * 将模拟值转换为分贝(dB)值
-     * 使用公式: dB = 20 * log10((adcValue / 4095 * 3.3 + 0.001) / 0.00631)
+     * 使用公式: voltage = adc_value / 4095 * 3.3
+     *          dB = 20 * log10((voltage + 0.001) / 0.00631)
      * @param adcValue 模拟值 (0-4095)
      */
     //% block="将模拟值 [adcValue] 转换为分贝"
@@ -27,7 +28,7 @@ namespace noiseDbConverter {
         // 导入噪音转换库
         Generator.addImport(`from noise_converter import convert_to_decibel`);
 
-        // 生成转换代码
+        // 生成转换代码 - 确保正确返回函数结果
         Generator.addCode(`convert_to_decibel(${adcValue})`);
 
         // 这个返回值在实际运行中不会使用，只是为了满足TypeScript的类型检查
