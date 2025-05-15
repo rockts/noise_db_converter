@@ -1,0 +1,4 @@
+{
+  "noiseDbConverter.convertToDecibel": "Convert analog value %adcValue to decibels",
+  "noiseDbConverter": "Noise dB Converter"
+}

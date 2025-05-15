@@ -1,0 +1,45 @@
+{
+    "name": {
+        "zh-cn": "噪音分贝转换",
+        "en": "Noise dB Converter"
+    },
+    "version": "1.0.0",
+    "description": {
+        "zh-cn": "将噪音传感器的模拟值转换为分贝(dB)值",
+        "en": "Convert noise sensor analog values to decibels (dB)"
+    },
+    "author": "rockts",
+    "email": "gaopeng@lekee.cc",
+    "license": "MIT",
+    "isBoard": false,
+    "id": "noise_db_converter",
+    "platform": [
+        "win",
+        "mac",
+        "web"
+    ],
+    "asset": {
+        "arduinoC": {
+            "dir": "arduinoC/",
+            "version": "1.0.0",
+            "main": "main.ts",
+            "board": [
+                "arduinoUno"
+            ],
+            "files": [
+                "libraries.zip"
+            ]
+        },
+        "python": {
+            "dir": "python/",
+            "version": "1.0.0",
+            "main": "main.ts",
+            "board": [
+                "unihiker"
+            ],
+            "files": [
+                "libraries.zip"
+            ]
+        }
+    }
+}

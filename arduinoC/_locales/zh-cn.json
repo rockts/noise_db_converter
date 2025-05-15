@@ -1,0 +1,4 @@
+{
+  "noiseDbConverter.convertToDecibel": "将模拟值 %adcValue 转换为分贝",
+  "noiseDbConverter": "噪音分贝转换"
+}
