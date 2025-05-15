@@ -27,7 +27,7 @@
                 "arduinoUno"
             ],
             "files": [
-                "libraries.zip"
+                "arduinoC/libraries/libraries.zip"
             ]
         },
         "python": {
@@ -38,7 +38,7 @@
                 "unihiker"
             ],
             "files": [
-                "libraries.zip"
+                "python/libraries/libraries.zip"
             ]
         }
     }
